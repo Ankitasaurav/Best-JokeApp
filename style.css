@@ -1,0 +1,42 @@
+body {
+  font-family: poppins;
+  margin-top: 10em;
+  color: white;
+}
+
+.container {
+  margin: 0 auto;
+  width: 70%;
+  background-color: rgb(214, 68, 92);
+  padding: 2em;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.joke {
+  padding-bottom: 2em;
+  color: rgb(255, 225, 168);
+}
+
+.btn {
+  background-color: white;
+  color: black;
+  font-size: 0.9rem;
+  text-align: center;
+  border-radius: 5px;
+  padding: 1em 3em;
+  border: none;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.btn:hover {
+  /* box-shadow: 0 2px 4px 0 rgba(255, 255, 255, 0.493), 0 2px 10px rgba(255, 255, 255, 0.712); */
+  transform: scale(1.08);
+}
+
+p {
+  color: rgb(29, 25, 48);
+  text-align: center;
+  padding-top: 2px;
+}
